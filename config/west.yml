@@ -11,7 +11,7 @@ manifest:
       remote: zmkfirmware
       import: app/west.yml
     - name: zmk-nice-oled
-      remote: mctechnology17
+      url: https://github.com/ashmortar/zmk-nice-oled
       revision: main
   self:
     path: config
